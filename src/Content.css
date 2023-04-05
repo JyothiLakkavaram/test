@@ -1,0 +1,183 @@
+/* Content */
+.itemSelected {
+    width: 100%;
+}
+
+/* Booth Agent Management */
+
+.boothagentmanagement {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    
+}
+
+.boothagentmanagement header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 0;
+    height: auto;
+}
+
+.assign-voters,
+.add-users {
+    background-color: #1C477A;
+    color: #fff;
+    margin-right: 10px
+}
+
+.icon-spreadsheet {
+    background-color: #3D8B52;
+}
+
+.icon-pdf {
+    background-color: #C64632;
+}
+
+.BxsFileSpreadsheet,
+.BxsFilePdf {
+    color: #fff;
+}
+.cards .row{
+margin:20px 0;
+}
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pooling-booths {
+    background-color: #00C797;
+    border-color:#00C797;
+}
+
+#mandals-town {
+    background-color: #FDA776;
+    border-color:#FDA776
+}
+
+#villages {
+    background-color: #E4D75E;
+    border-color:#E4D75E
+}
+
+#volunteers {
+    background-color: #24C0CA;
+    border-color:#24C0CA
+}
+
+#male-volunteers {
+    background-color: #FD7676;
+    border-color:#FD7676
+}
+
+#female-volunteers {
+    background-color: #F46DC6;
+    border-color:#F46DC6;
+}
+
+/* Table */
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    background-color: transparent;
+    border-spacing: 0;
+    border: 1px solid #dee2e6;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table thead tr th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    background: #4D7093;
+  }
+  .table tr th{
+    color:#fff;
+  }
+  .table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }
+  
+  .table-sm th,
+  .table-sm td {
+    padding: 0.3rem;
+  }
+  
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered thead th,
+  .table-bordered thead td {
+    border-bottom-width: 2px;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  @media (max-width: 575.98px) {
+    .table-responsive-sm {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-sm > .table-bordered {
+      border: 0;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .table-responsive-md {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-md > .table-bordered {
+      border: 0;
+    }
+  }
+  
+  @media (max-width: 991.98px) {
+    .table-responsive-lg {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-lg > .table-bordered {
+      border: 0;
+    }
+  }
+  
+  @media (max-width: 1199.98px) {
+    .table-responsive-xl {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-xl > .table-bordered {
+      border: 0;
+    }
+  }
+  
+ 
